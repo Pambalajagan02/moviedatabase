@@ -1,0 +1,29 @@
+.detail-main-con {
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  align-self: flex-start;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inner-con {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+}
+.img-D {
+  height: 500px;
+}
+@media (min-width: 768px) {
+  .img-D {
+    height: 300px;
+  }
+}
+.overview {
+  text-align: center;
+  width: 50%;
+}

@@ -1,0 +1,11 @@
+.list-style-cast {
+  display: flex;
+}
+.img-profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.name-para {
+  width: 150px;
+}

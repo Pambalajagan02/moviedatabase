@@ -1,0 +1,19 @@
+.ul-Movie {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .ul-Movie {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+.movie-type-hed {
+  padding: 20px;
+  margin: 0px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
